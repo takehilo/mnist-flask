@@ -1,0 +1,2 @@
+model_checkpoint_path: "/tmp/tensorflow-test/my-model"
+all_model_checkpoint_paths: "/tmp/tensorflow-test/my-model"

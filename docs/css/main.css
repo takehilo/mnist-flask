@@ -1,0 +1,28 @@
+body {
+  color: #4d4d4d;
+  background: url('../img/background.jpg') no-repeat;
+}
+.site-title,
+.site-title-sub {
+  text-align: center;
+}
+.site-title-sub {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.draw-section {
+  width: 362px;
+  margin: 0 auto 20px;
+}
+#canvas-main {
+  border: solid 1px;
+}
+.result-section {
+  font-size: 5.0rem;
+  font-weight: bold;
+  text-align: center;
+}
+.highlight {
+  background: linear-gradient(transparent 50%, #ffff66 0%);
+  line-height: 1.3em;
+}

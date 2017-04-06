@@ -1,0 +1,21 @@
+{
+  "name": "mnist-flask.client",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nconf": "^0.8.4",
+    "superagent": "^3.5.2",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-merge": "^4.1.0"
+  }
+}

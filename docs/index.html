@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>MNIST Flask</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="site-title">MNIST Flask</h1>
+    <h2 class="site-title-sub">〜手書き数字判定〜</h2>
+    <div class="draw-section">
+      <canvas id="canvas-main" width="364" height="364"></canvas>
+      <button type="button" id="btn-reset" class="btn btn-default">reset</button>
+    </div>
+    <p class="result-section">
+      <strong class="highlight">
+        &nbsp;&nbsp;判定結果: <span id="result"></span>&nbsp;&nbsp;
+      </strong>
+    </p>
+  </div>
+
+  <script src="js/vendor.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+
+</body>
+</html>
