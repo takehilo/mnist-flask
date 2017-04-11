@@ -6,9 +6,9 @@ $ npm i
 $ npm start
 ```
 
-## Build
+## Production Build
 ```
-$ npm run build
+$ npm run build:prod
 ```
 
 `/docs/js`に`vendor.js`と`main.js`が作成される。

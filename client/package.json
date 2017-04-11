@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack",
+    "build:prod": "webpack --env=production",
     "lint": "eslint ."
   },
   "devDependencies": {
